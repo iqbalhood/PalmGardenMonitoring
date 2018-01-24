@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.iqbalhood.palmtree.monitoring">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.iqbalhood.palmtree.monitoring.SplashScreen"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.iqbalhood.palmtree.monitoring.InputActivity.InputDataKebun"
+            android:label="Tambah Satuan Kebun"/>
+        <activity
+            android:name="com.iqbalhood.palmtree.monitoring.EditDataKebun"
+            android:label="Edit Data Kebun"/>
+        <activity
+            android:name="com.iqbalhood.palmtree.monitoring.BuatBiodata"
+            android:label="@string/title_activity_buatbiodata"/>
+        <activity
+            android:name="com.iqbalhood.palmtree.monitoring.LihatBiodata"
+            android:label="@string/title_activity_lihatbiodata"/>
+        <activity
+            android:name="com.iqbalhood.palmtree.monitoring.UpdateBiodata"
+            android:label="@string/title_activity_updatebiodata"/>
+        <activity
+            android:name="com.iqbalhood.palmtree.monitoring.MainActivity"
+            android:label="@string/title_activity_updatebiodata"/>
+        <activity
+            android:name="com.iqbalhood.palmtree.monitoring.DashboardActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name="com.iqbalhood.palmtree.monitoring.CobaCart"/>
+        <activity
+            android:name="com.iqbalhood.palmtree.monitoring.InputActivity.InputBaseActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name="com.iqbalhood.palmtree.monitoring.InputActivity.InputCurahHujan"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name="com.iqbalhood.palmtree.monitoring.InputActivity.InputJumlahPohon"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name="com.iqbalhood.palmtree.monitoring.InputActivity.InputJumlahElaeidobius"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name="com.iqbalhood.palmtree.monitoring.InputActivity.InputOryctes"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name="com.iqbalhood.palmtree.monitoring.InputActivity.InputJumlahGanoderma"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name="com.iqbalhood.palmtree.monitoring.InputActivity.InputUlatKantung"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name="com.iqbalhood.palmtree.monitoring.InputActivity.InputUlatApi"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name="com.iqbalhood.palmtree.monitoring.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name="com.iqbalhood.palmtree.monitoring.AboutUS" android:label="About Us">
+        </activity>
+        <activity android:name="com.iqbalhood.palmtree.monitoring.ResetData" android:label="Reset Data">
+        </activity>
+    </application>
+
+</manifest>

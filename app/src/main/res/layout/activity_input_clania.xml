@@ -1,0 +1,150 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InputActivity.InputDataKebun">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/birumuda"
+        android:padding="6dp"
+        android:src="@drawable/logotopbar" />
+
+    <TextView
+        android:id="@+id/satuanKebun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#3d3b3b"
+        android:padding="20dp"
+        android:text="Nama Satuan Kebun (Tahun Tanam)"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="18sp" />
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/editTextJumlah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:hint="Jumlah Ulat Kantung"
+                android:inputType="number"
+                android:maxLength="10">
+
+                <requestFocus />
+            </EditText>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text=" date_selected"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+                    <ImageButton
+                        android:id="@+id/button11"
+                        android:layout_width="58dp"
+                        android:layout_height="58dp"
+                        android:layout_weight="0"
+                        android:onClick="setDate"
+                        android:src="@drawable/ic_date_range_black_24dp"
+                        android:text=" date_button_set" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView33"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text=" date_selected"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+                    <ImageButton
+                        android:id="@+id/button111"
+                        android:layout_width="58dp"
+                        android:layout_height="58dp"
+                        android:layout_weight="0"
+                        android:onClick="setDate2"
+                        android:src="@drawable/ic_date_range_black_24dp"
+                        android:text=" date_button_set" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/button1"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_marginTop="10dp"
+                android:background="#CCC"
+                android:padding="1dp"
+                android:text="Submit" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:text="Populasi/Pelepah  Grafik 2017"/>
+
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/chart"
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

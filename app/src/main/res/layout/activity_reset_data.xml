@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.iqbalhood.palmtree.monitoring.InputActivity.InputBaseActivity">
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/satuanKebun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginBottom="10dp"
+        android:text="Nama Satuan Kebun (Tahun Tanam)"/>
+    <Button
+        android:onClick="resetCurahHujan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Reset Data CURAH HUJAN"/>
+
+
+    <Button
+        android:onClick="resetJumlahPohon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Reset Data JUMLAH POHON"/>
+
+
+    <Button
+        android:onClick="resetUlatAPI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text=" Reset Data Ulat API"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:onClick="ulatKantung"
+        android:text="Reset Data Ulat Kantung"/>
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:onClick="resetGanoderma"
+        android:text="Reset Data Ganoderma"
+        android:textAllCaps="false"
+        android:textStyle="italic"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:onClick="resetOryctes"
+        android:text="Reset Data Oryctes"
+        android:textAllCaps="false"
+        android:textStyle="italic"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:onClick="resetElaeidobius"
+        android:text="Reset Data Elaeidobius"
+        android:textAllCaps="false"
+        android:textStyle="italic"/>
+
+
+</LinearLayout>

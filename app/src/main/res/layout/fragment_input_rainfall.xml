@@ -1,0 +1,935 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".InputActivity.InputDataKebun">
+
+    <LinearLayout
+        android:id="@+id/progressbar_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ProgressBar
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:text="Loading data..."/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#C0C0C0"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/satuanKebun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:padding="20dp"
+        android:text="Nama Satuan Kebun (Tahun Tanam)"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="18sp"/>
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+
+                <Spinner
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/spinner0"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="0"
+                    android:entries="@array/years_arrays"
+                    android:prompt="@string/years_prompt"/>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <Spinner
+                        android:id="@+id/spinner00"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:entries="@array/country_arrays"
+                        android:prompt="@string/country_prompt"/>
+
+
+                    <Button
+                        android:id="@+id/btnExport"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="2dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="0"
+                        android:background="#a3a3a3"
+                        android:padding="1dp"
+                        android:text="Export"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="#b8b8b8"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editTextJumlah"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#b8b8b8"
+                    android:hint="Jumlah Curah Hujan"
+                    android:inputType="number"
+
+                    android:maxLength="10"
+                    android:padding="10dp"/>
+
+                <TextView
+                    android:layout_width="48dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="| mm"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="#b8b8b8"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=" date_selected"
+                    android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+
+                <ImageButton
+                    android:id="@+id/button11"
+                    android:layout_width="58dp"
+                    android:layout_height="58dp"
+                    android:layout_weight="0"
+                    android:onClick="showDatePickerDialog"
+                    android:src="@drawable/ic_date_range_black_24dp"
+                    android:text=" date_button_set"/>
+
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/button1"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_marginTop="10dp"
+                android:background="#CCC"
+                android:padding="1dp"
+                android:text="Submit"/>
+
+
+            <TextView
+                android:id="@+id/tvTahun"
+                android:text="Curah Hujan Grafik tahun 2017"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <HorizontalScrollView
+                android:id="@+id/hsv"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:fillViewport="true"
+                android:measureAllChildren="false"
+                android:scrollbars="none">
+
+                <com.github.mikephil.charting.charts.BarChart
+                    android:id="@+id/chart"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"/>
+            </HorizontalScrollView>
+
+
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:id="@+id/Informasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="(HK) Hari Tidak Hujan"/>
+
+                <TextView
+                    android:id="@+id/txtInfoHK"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No Data Available"/>
+
+                <View
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#CCC"></View>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="(HH) Hari Hujan"/>
+
+                <TextView
+                    android:id="@+id/txtInfoHH"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No Data Available"/>
+
+                <View
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#CCC"></View>
+
+
+
+                <TextView
+                    android:id="@+id/BulanKering"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Bulan Kering"/>
+
+                <TextView
+                    android:id="@+id/txtBulanKering"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No Data Available"/>
+
+                <View
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#CCC"></View>
+
+                <TextView
+                    android:id="@+id/BulanBasah"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Bulan Basah"/>
+
+                <TextView
+                    android:id="@+id/txtBulanBasah"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No Data Available"/>
+
+                <View
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#CCC"></View>
+
+                <TextView
+                    android:id="@+id/tvDrySpell"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Dry Spell = Tidak Ada "/>
+
+                <View
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#CCC"></View>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Defisit Air Bulanan"/>
+
+                <TextView
+                    android:id="@+id/txtDefisitAir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tidak Ada"/>
+
+
+
+            </LinearLayout>
+
+
+
+
+            <TextView
+                android:id="@+id/tvTahun2"
+                android:layout_marginTop="10dp"
+                android:text="Curah Hujan Grafik tahun 2018"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <HorizontalScrollView
+                android:id="@+id/hsv2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:fillViewport="true"
+                android:measureAllChildren="false"
+                android:scrollbars="none">
+
+                <com.github.mikephil.charting.charts.BarChart
+                    android:id="@+id/chart2"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"/>
+            </HorizontalScrollView>
+
+
+                <LinearLayout
+                    android:layout_margin="10dp"
+                    android:id="@+id/Informasi2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="(HK) Hari Tidak Hujan"/>
+
+                    <TextView
+                        android:id="@+id/txtInfoHK2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No Data Available"/>
+
+                    <View
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#CCC"></View>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="(HH) Hari Hujan"/>
+
+                    <TextView
+                        android:id="@+id/txtInfoHH2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No Data Available"/>
+
+                    <View
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#CCC"></View>
+
+
+                    <TextView
+                        android:id="@+id/BulanKering2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Bulan Kering"/>
+
+                    <TextView
+                        android:id="@+id/txtBulanKering2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No Data Available"/>
+
+
+                    <View
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#CCC"></View>
+
+                    <TextView
+                        android:id="@+id/BulanBasah2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Bulan Basah"/>
+
+                    <TextView
+                        android:id="@+id/txtBulanBasah2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No Data Available"/>
+
+                    <View
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#CCC"></View>
+
+
+                    <TextView
+                        android:id="@+id/tvDrySpell2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Dry Spell = Tidak Ada "/>
+
+                    <View
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#CCC"></View>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Defisit Air Bulanan"/>
+
+                    <TextView
+                        android:id="@+id/txtDefisitAir2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tidak Ada"/>
+
+
+
+                </LinearLayout>
+
+
+
+
+
+            <TextView
+                android:id="@+id/tvTahun3"
+                android:text="Curah Hujan Grafik tahun 2019"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <HorizontalScrollView
+                android:id="@+id/hsv3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:fillViewport="true"
+                android:measureAllChildren="false"
+                android:scrollbars="none">
+
+                <com.github.mikephil.charting.charts.BarChart
+                    android:id="@+id/chart3"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"/>
+            </HorizontalScrollView>
+
+
+
+                    <LinearLayout
+                        android:layout_margin="10dp"
+                        android:id="@+id/Informasi3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="(HK) Hari Tidak Hujan"/>
+
+                        <TextView
+                            android:id="@+id/txtInfoHK3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No Data Available"/>
+
+                        <View
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="#CCC"></View>
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="(HH) Hari Hujan"/>
+
+                        <TextView
+                            android:id="@+id/txtInfoHH3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No Data Available"/>
+
+                        <View
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="#CCC"></View>
+
+
+                        <TextView
+                            android:id="@+id/BulanKering3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="Bulan Kering"/>
+
+                        <TextView
+                            android:id="@+id/txtBulanKering3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No Data Available"/>
+
+                        <View
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="#CCC"></View>
+
+                        <TextView
+                            android:id="@+id/BulanBasah3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="Bulan Basah"/>
+
+                        <TextView
+                            android:id="@+id/txtBulanBasah3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No Data Available"/>
+
+                        <View
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="#CCC"></View>
+
+                        <TextView
+                            android:id="@+id/tvDrySpell3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="Dry Spell = Tidak Ada "/>
+
+                        <View
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="#CCC"></View>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="Defisit Air Bulanan"/>
+
+                        <TextView
+                            android:id="@+id/txtDefisitAir3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Tidak Ada"/>
+
+
+
+                    </LinearLayout>
+
+
+
+
+
+            <TextView
+                android:id="@+id/tvTahun4"
+                android:text="Curah Hujan Grafik tahun 2020"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <HorizontalScrollView
+                android:id="@+id/hsv4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:fillViewport="true"
+                android:measureAllChildren="false"
+                android:scrollbars="none">
+
+                <com.github.mikephil.charting.charts.BarChart
+                    android:id="@+id/chart4"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"/>
+            </HorizontalScrollView>
+
+
+                    <LinearLayout
+                        android:layout_margin="10dp"
+                        android:id="@+id/Informasi4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="(HK) Hari Tidak Hujan"/>
+
+                        <TextView
+                            android:id="@+id/txtInfoHK4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No Data Available"/>
+
+                        <View
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="#CCC"></View>
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="(HH) Hari Hujan"/>
+
+                        <TextView
+                            android:id="@+id/txtInfoHH4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No Data Available"/>
+
+
+                        <View
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="#CCC"></View>
+
+
+
+                        <TextView
+                            android:id="@+id/BulanKering4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="Bulan Kering"/>
+
+                        <TextView
+                            android:id="@+id/txtBulanKering4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No Data Available"/>
+
+                        <View
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="#CCC"></View>
+
+                        <TextView
+                            android:id="@+id/BulanBasah4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="Bulan Basah"/>
+
+                        <TextView
+                            android:id="@+id/txtBulanBasah4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No Data Available"/>
+
+                        <View
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="#CCC"></View>
+
+
+                        <TextView
+                            android:id="@+id/tvDrySpell4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="Dry Spell = Tidak Ada "/>
+
+                        <View
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="#CCC"></View>
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="Defisit Air Bulanan"/>
+
+                        <TextView
+                            android:id="@+id/txtDefisitAir4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Tidak Ada"/>
+
+
+                    </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvTahun5"
+                android:text="Curah Hujan Grafik tahun 2021"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <HorizontalScrollView
+                android:id="@+id/hsv5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:fillViewport="true"
+                android:measureAllChildren="false"
+                android:scrollbars="none">
+
+                <com.github.mikephil.charting.charts.BarChart
+                    android:id="@+id/chart5"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"/>
+            </HorizontalScrollView>
+
+
+                <LinearLayout
+                    android:layout_margin="10dp"
+                    android:id="@+id/Informasi5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="(HK) Hari Tidak Hujan"/>
+
+                    <TextView
+                        android:id="@+id/txtInfoHK5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No Data Available"/>
+
+                    <View
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#CCC"></View>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="(HH) Hari Hujan"/>
+
+                    <TextView
+                        android:id="@+id/txtInfoHH5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No Data Available"/>
+
+                    <View
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#CCC"></View>
+
+
+
+                    <TextView
+                        android:id="@+id/BulanKering5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Bulan Kering"/>
+
+                    <TextView
+                        android:id="@+id/txtBulanKering5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No Data Available"/>
+
+                    <View
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#CCC"></View>
+
+                    <TextView
+                        android:id="@+id/BulanBasah5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Bulan Basah"/>
+
+                    <TextView
+                        android:id="@+id/txtBulanBasah5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No Data Available"/>
+
+                    <View
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#CCC"></View>
+
+                    <TextView
+                        android:id="@+id/tvDrySpell5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Dry Spell = Tidak Ada "/>
+
+
+                    <View
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#CCC"></View>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Defisit Air Bulanan"/>
+
+                    <TextView
+                        android:id="@+id/txtDefisitAir5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tidak Ada"/>
+
+
+                </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
