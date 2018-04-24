@@ -10,6 +10,20 @@ Application to help Palm farmers and scientists to examine statistics of rainfal
   <img alt="Android app on Google Play" src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" />
 </a>
 
+## Demo
+
+<p align="center">
+  <img src="screenshot/1.png" height="500" alt="" />
+  <img src="screenshot/2.png" height="500" alt="" />
+  <img src="screenshot/3.png" height="500" alt="" />
+</p>
+
+<p align="center">
+  <img src="screenshot/4.png" height="500" alt="" />
+  <img src="screenshot/5.png" height="500" alt="" />
+  <img src="screenshot/6.png" height="500" alt="" />
+</p>
+
 #### Feel free to donate:
 BTC : 1NhktWQuLK3XHHfpL5tDZdWEqtnLEyitjd
 
