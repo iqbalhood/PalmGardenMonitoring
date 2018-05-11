@@ -22,10 +22,10 @@
         </activity>
         <activity
             android:name="com.iqbalhood.palmtree.monitoring.InputActivity.InputDataKebun"
-            android:label="Tambah Satuan Kebun"/>
+            android:label="Add Garden Unit"/>
         <activity
             android:name="com.iqbalhood.palmtree.monitoring.EditDataKebun"
-            android:label="Edit Data Kebun"/>
+            android:label="Edit Garden Data"/>
         <activity
             android:name="com.iqbalhood.palmtree.monitoring.BuatBiodata"
             android:label="@string/title_activity_buatbiodata"/>
