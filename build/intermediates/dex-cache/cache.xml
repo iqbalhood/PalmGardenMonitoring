@@ -3,93 +3,75 @@
 
     <item
         is-multidex="true"
-        jar="/Users/iqbalhood/.android/build-cache/04eea5cc85578d3842898f3badf5d4c9de17b0b4/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="/Users/iqbalhood/Desktop/MonitoringCHdanHPT/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7a57ef26d47f7eb048e9c4992d640536e5817989/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iqbalhood/.android/build-cache/bcdbc29c98a507a04f104803ccb37a5b2589612f/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="/Users/iqbalhood/Desktop/MonitoringCHdanHPT/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_47db56a60d1aa88fcf63c4c99a8850dba36ed614/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/iqbalhood/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="/Users/iqbalhood/Desktop/MonitoringCHdanHPT/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_ac5419a26d0cd340d87e463f4c7d95b620526ea1/classes.dex" />
+        <dex dex="/Users/iqbalhood/Documents/UtopianProject/PalmGardenMonitoring/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_ac5419a26d0cd340d87e463f4c7d95b620526ea1/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iqbalhood/.android/build-cache/8b43dbace2b6982c88676f883620974630cd058d/output/jars/classes.jar"
+        jar="/Users/iqbalhood/.android/build-cache/bde4dc9632fb3d8e10ece7820e2cc0446f74a075/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="/Users/iqbalhood/Desktop/MonitoringCHdanHPT/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a5266ddd0ecf1ec3ab17320b1c1922fb23180385/classes.dex" />
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/iqbalhood/Documents/UtopianProject/PalmGardenMonitoring/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7d5c3f13205acc7e563890c508a766020729e1b7/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iqbalhood/.android/build-cache/5cbae32d30840ea65dcfda795fcb56aa6c56a6aa/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="/Users/iqbalhood/Desktop/MonitoringCHdanHPT/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_edc5ced21a992858243b208470aff495f5d7bb2a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iqbalhood/.android/build-cache/cddfc3ea62b372e67ec487185b32a6ac3ae38a30/output/jars/classes.jar"
+        jar="/Users/iqbalhood/.android/build-cache/c1ad5128ae031ef660b84ea5a1e617bdef51cac1/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="838172f1d23787cc52bb558ef989605bc2aecf62">
-        <dex dex="/Users/iqbalhood/Desktop/MonitoringCHdanHPT/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9b732e5cdc494c0812ec44b5eb151dc6f1dfcad2/classes.dex" />
+        <dex dex="/Users/iqbalhood/Documents/UtopianProject/PalmGardenMonitoring/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5e44437f807502d4327c0e42948cfc10c21428ee/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iqbalhood/.android/build-cache/d015687fc9fbb4d5b8bf985d86a996166c2409e3/output/jars/classes.jar"
+        jar="/Users/iqbalhood/.android/build-cache/8b75d1646a3302e67cbfedc5a6e671de6dea4024/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="/Users/iqbalhood/Desktop/MonitoringCHdanHPT/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5746cd25ba41dffc047cebadd751c81c3497ef1d/classes.dex" />
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/iqbalhood/Documents/UtopianProject/PalmGardenMonitoring/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_838a6824cceac94cbf8a7d9f7a4f601847d483c1/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iqbalhood/.android/build-cache/578db9501bbe3ad058006aaa70c6d1345ca6d719/output/jars/classes.jar"
+        jar="/Users/iqbalhood/.android/build-cache/25010286fa97e2c653fac469bb85db1d871e95a9/output/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/iqbalhood/Desktop/MonitoringCHdanHPT/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_03a308cc981806c9a2f69b720cfb161fb4172856/classes.dex" />
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/iqbalhood/Documents/UtopianProject/PalmGardenMonitoring/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_b8cbae9fde9b11ad26a014de6a099b339bc1a1ae/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iqbalhood/.android/build-cache/defb8a45236b1c7a52b5d1f2c5659b0407418f55/output/jars/classes.jar"
+        jar="/Users/iqbalhood/.android/build-cache/0c590a684f8874028cafeb9fc5c3fb8f3c6baee0/output/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="/Users/iqbalhood/Desktop/MonitoringCHdanHPT/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6de788477e212b3084e74ad51c37c5fbf8d451c6/classes.dex" />
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/iqbalhood/Documents/UtopianProject/PalmGardenMonitoring/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_e347a84c905e29af2d3faa6536cfbf39c611f9be/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iqbalhood/.android/build-cache/0b6763bcfc6188d696757dde5d1d662907198d58/output/jars/classes.jar"
+        jar="/Users/iqbalhood/.android/build-cache/f7dde2b52756cd0e7ea9ec0ef2e8c7c5ad620915/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
-        <dex dex="/Users/iqbalhood/Desktop/MonitoringCHdanHPT/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e3bed27df5facfa6a415d1f9af11f53b8370f1f8/classes.dex" />
+        <dex dex="/Users/iqbalhood/Documents/UtopianProject/PalmGardenMonitoring/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0608ca0d21bddc6d06bb7bb124bf6128155f6197/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iqbalhood/.android/build-cache/daeed7cfcd773bf6c85c30eeafce9428f502bed5/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/iqbalhood/Documents/UtopianProject/PalmGardenMonitoring/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_0c7e0c4668cda3686870d80400490ad6eee3014a/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -98,16 +80,7 @@
         optimize="true"
         revision="25.0.0"
         sha1="cd0d5510908225f76c5fe5a3f1df4fa44866f81e">
-        <dex dex="/Users/iqbalhood/Desktop/MonitoringCHdanHPT/app/build/intermediates/transforms/dex/debug/folders/1000/10/commons-net-3.3_3071ad80d9a0cf2d22e3a9d976a832912ad5111a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iqbalhood/.android/build-cache/998473e22bef2eb2a495fe54ea8526e80d92bf0e/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="/Users/iqbalhood/Desktop/MonitoringCHdanHPT/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c75726b21836a8f63c284d6cece84d71d462fdbb/classes.dex" />
+        <dex dex="/Users/iqbalhood/Documents/UtopianProject/PalmGardenMonitoring/app/build/intermediates/transforms/dex/debug/folders/1000/10/commons-net-3.3_3071ad80d9a0cf2d22e3a9d976a832912ad5111a/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -116,124 +89,160 @@
         optimize="true"
         revision="25.0.0"
         sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="/Users/iqbalhood/Desktop/MonitoringCHdanHPT/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_0666987a00a271a7a203a872a59e47c9d313d9dd/classes.dex" />
+        <dex dex="/Users/iqbalhood/Documents/UtopianProject/PalmGardenMonitoring/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_0666987a00a271a7a203a872a59e47c9d313d9dd/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iqbalhood/.android/build-cache/eae394f3049a71edb514e40436a1f0699aced36c/output/jars/classes.jar"
+        jar="/Users/iqbalhood/.android/build-cache/2e962ae4d157da835f4b95da1145d6502ccfed3f/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
-        <dex dex="/Users/iqbalhood/Desktop/MonitoringCHdanHPT/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0bb173777dbde292c9f8b4e51e52760935f62761/classes.dex" />
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/iqbalhood/Documents/UtopianProject/PalmGardenMonitoring/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ffcf95b3856b54b4a250d9e40fb2000f06c734e7/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iqbalhood/.android/build-cache/a317e2bb0cdcaf00f5c1c4b525c05066e8a7b1e8/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
-        <dex dex="/Users/iqbalhood/Desktop/MonitoringCHdanHPT/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_38e41a7d02bb6c60a8dacf0dfb5deb7e2db164be/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iqbalhood/.android/build-cache/cf23be219ed159cbca9b108ebcc05f681c29d989/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="/Users/iqbalhood/Desktop/MonitoringCHdanHPT/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6f5d109c872a7d61caa4a73730ecea02cab1b276/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iqbalhood/.android/build-cache/dff5538df841c0932db26f20cb532f5ac996d6e6/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="/Users/iqbalhood/Desktop/MonitoringCHdanHPT/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_334eb94424ed52ea83b069cf77d0a8e38052dba0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iqbalhood/.android/build-cache/8b43dbace2b6982c88676f883620974630cd058d/output/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="/Users/iqbalhood/Desktop/MonitoringCHdanHPT/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_f2b60b5e2ac0bee0b94d00b9867bf5307b46caa7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iqbalhood/.android/build-cache/cf23be219ed159cbca9b108ebcc05f681c29d989/output/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="/Users/iqbalhood/Desktop/MonitoringCHdanHPT/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_12a6ce3d83aeae1d847687d40da555bc9643d98b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iqbalhood/.android/build-cache/eadcd2a769d7e4299b036343234f6183af6cab6b/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
-        <dex dex="/Users/iqbalhood/Desktop/MonitoringCHdanHPT/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2e2d37569177bc44e5816869c6d7d4e5fe239974/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iqbalhood/Desktop/MonitoringCHdanHPT/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/iqbalhood/Documents/UtopianProject/PalmGardenMonitoring/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/iqbalhood/Desktop/MonitoringCHdanHPT/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_3fa3ee56523599309ad2aef70e2b74334a51bb1e/classes.dex" />
+        <dex dex="/Users/iqbalhood/Documents/UtopianProject/PalmGardenMonitoring/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_ac3d065992b7cc70157e28f4b4114c0fdc926447/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iqbalhood/.android/build-cache/b187f68df2dce6aeedb34e76b23e3bcc25503fd8/output/jars/classes.jar"
+        jar="/Users/iqbalhood/.android/build-cache/8b75d1646a3302e67cbfedc5a6e671de6dea4024/output/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
-        <dex dex="/Users/iqbalhood/Desktop/MonitoringCHdanHPT/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_16df699e6dca30881535fac2da66637af4e9e714/classes.dex" />
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/iqbalhood/Documents/UtopianProject/PalmGardenMonitoring/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_830be541e150a84bc7859700dab0eb3790ad6c7e/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iqbalhood/.android/build-cache/82dabf4b49595b94a1ce67af17e2be0ebb493f8f/output/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="/Users/iqbalhood/Desktop/MonitoringCHdanHPT/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_9e16d84b716ece86cbb098747ebfdcf1cc24443f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iqbalhood/.android/build-cache/203cc1b9c789783de9e3d8d343b159258ea544ec/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="/Users/iqbalhood/Desktop/MonitoringCHdanHPT/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_09327a16be38882e0d61cf0d83971afde788fe4e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iqbalhood/Desktop/MonitoringCHdanHPT/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="43d501a8100fd1d6f0ae9bcddd621a8e2e1594be">
-        <dex dex="/Users/iqbalhood/Desktop/MonitoringCHdanHPT/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e41d49cb2f2f20c5ef43f699dc7bea66bf547bf8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iqbalhood/.android/build-cache/57700775f1b185b692ac46d6d27e5eed2eb6a39a/output/jars/classes.jar"
+        jar="/Users/iqbalhood/.android/build-cache/b957d71bab5d9d86586b5d23d8450995d4e3f09c/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
-        <dex dex="/Users/iqbalhood/Desktop/MonitoringCHdanHPT/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_68ba04b59fad7cb6c2431746c2041c44843b82ba/classes.dex" />
+        <dex dex="/Users/iqbalhood/Documents/UtopianProject/PalmGardenMonitoring/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7522455116045254841722cd174b1d6c37f5ff82/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iqbalhood/.android/build-cache/6184a2f964ca5adc02921e2fa01c58c397fe15fb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/iqbalhood/Documents/UtopianProject/PalmGardenMonitoring/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cd69a70a2fe4e8ae9fa98d581b920e86690807a4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iqbalhood/.android/build-cache/0ab8909be656f15d2e3bf6d98bc3ea091622106b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/Users/iqbalhood/Documents/UtopianProject/PalmGardenMonitoring/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_beb8b95a0757d28d87765f6510d1a70acbe7b8e4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iqbalhood/.android/build-cache/ea24bdeee91e4edfee3009435b674cfb5367f776/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Users/iqbalhood/Documents/UtopianProject/PalmGardenMonitoring/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_66af219e9ec8c26c66d8aa617a1a14687a55e722/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iqbalhood/.android/build-cache/ff49d36e9c3093b0da56bd489c3189897f36e05a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/iqbalhood/Documents/UtopianProject/PalmGardenMonitoring/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a19c3bff79bb7836456e973b7e15ed552ac3278c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iqbalhood/.android/build-cache/e3652243465c45dec258b183af6c5118c723f474/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/Users/iqbalhood/Documents/UtopianProject/PalmGardenMonitoring/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fb1474049d6336f6095657e4d1d576a98f6c1874/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iqbalhood/.android/build-cache/0c590a684f8874028cafeb9fc5c3fb8f3c6baee0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/iqbalhood/Documents/UtopianProject/PalmGardenMonitoring/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_695b20ffa2ecea3579a20fc9542c0dfdab5435fa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iqbalhood/.android/build-cache/937ca019e083e5232c805c99947a129361e51f4c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/Users/iqbalhood/Documents/UtopianProject/PalmGardenMonitoring/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_be6b3d28a3f4da44055ee10a3b7f22fdd5ae964c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iqbalhood/.android/build-cache/2e962ae4d157da835f4b95da1145d6502ccfed3f/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/iqbalhood/Documents/UtopianProject/PalmGardenMonitoring/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_c37d1b1406e9ac15ea01dbd836b33505245ba54d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iqbalhood/.android/build-cache/1cfb2cb55e40891eab94a7c2764bbcc05047e2fb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/iqbalhood/Documents/UtopianProject/PalmGardenMonitoring/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9034b65a3952659a3b8ff492c633affed4d23977/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iqbalhood/Documents/UtopianProject/PalmGardenMonitoring/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="607b83916adaae7120858e7a6db812c7338e07cd">
+        <dex dex="/Users/iqbalhood/Documents/UtopianProject/PalmGardenMonitoring/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_fabc92d0cc788d6e2eb834092d7d5ddf59c972a9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iqbalhood/.android/build-cache/a4d9786d1ed6456c61a91ae19d83b6ed23e0f54a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/iqbalhood/Documents/UtopianProject/PalmGardenMonitoring/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8e1fe0d627333b8951fabd8339b039f25300ef5b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iqbalhood/.android/build-cache/25010286fa97e2c653fac469bb85db1d871e95a9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/iqbalhood/Documents/UtopianProject/PalmGardenMonitoring/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_96abb0eb519eb4a55d64736cc399c735d1974596/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iqbalhood/.android/build-cache/daeed7cfcd773bf6c85c30eeafce9428f502bed5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/iqbalhood/Documents/UtopianProject/PalmGardenMonitoring/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fe8ba527238a78003fbce8e8102b78f5621593e5/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -242,16 +251,16 @@
         optimize="true"
         revision="25.0.0"
         sha1="e579bd2905d0399af5029aaaf9817d5fa0ca88a5">
-        <dex dex="/Users/iqbalhood/Desktop/MonitoringCHdanHPT/app/build/intermediates/transforms/dex/debug/folders/1000/10/ormlite-core-4.48_1e581dbd0f5df6eda4b0581de7281f62aac9ecd1/classes.dex" />
+        <dex dex="/Users/iqbalhood/Documents/UtopianProject/PalmGardenMonitoring/app/build/intermediates/transforms/dex/debug/folders/1000/10/ormlite-core-4.48_1e581dbd0f5df6eda4b0581de7281f62aac9ecd1/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iqbalhood/.android/build-cache/203cc1b9c789783de9e3d8d343b159258ea544ec/output/jars/libs/internal_impl-24.2.1.jar"
+        jar="/Users/iqbalhood/.android/build-cache/ced4645a93851003466d9583b8d280b7e9065a76/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="/Users/iqbalhood/Desktop/MonitoringCHdanHPT/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_d5cecb7be84177ec822ff2e9b478fb523a1a458b/classes.dex" />
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/iqbalhood/Documents/UtopianProject/PalmGardenMonitoring/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b5efcdf2702df2c00f13cba6a5088772bd7f48d5/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -260,25 +269,7 @@
         optimize="true"
         revision="25.0.0"
         sha1="c23708cdb9e80a144db433e23344a788a1fd6599">
-        <dex dex="/Users/iqbalhood/Desktop/MonitoringCHdanHPT/app/build/intermediates/transforms/dex/debug/folders/1000/10/opencsv-2.3_962ccc39ba85cd9778052c9d7cbba74366961949/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iqbalhood/.android/build-cache/bcdbc29c98a507a04f104803ccb37a5b2589612f/output/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="/Users/iqbalhood/Desktop/MonitoringCHdanHPT/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_9877c39676bb8dd498d1c36391cf80800a1d8c93/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iqbalhood/.android/build-cache/e14fbb17c699afd19ad29c99fec6134fb71a1bfb/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
-        <dex dex="/Users/iqbalhood/Desktop/MonitoringCHdanHPT/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2eaf3ccfcb1946cf2c63f78d831918a57ad56d9c/classes.dex" />
+        <dex dex="/Users/iqbalhood/Documents/UtopianProject/PalmGardenMonitoring/app/build/intermediates/transforms/dex/debug/folders/1000/10/opencsv-2.3_962ccc39ba85cd9778052c9d7cbba74366961949/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -287,7 +278,25 @@
         optimize="true"
         revision="25.0.0"
         sha1="b036abbb61656165da99cf44898e4b9123687e65">
-        <dex dex="/Users/iqbalhood/Desktop/MonitoringCHdanHPT/app/build/intermediates/transforms/dex/debug/folders/1000/10/MPAndroidChart-v2.1.6_6956bfd74753ce61d3de402d91ab0eb900bee147/classes.dex" />
+        <dex dex="/Users/iqbalhood/Documents/UtopianProject/PalmGardenMonitoring/app/build/intermediates/transforms/dex/debug/folders/1000/10/MPAndroidChart-v2.1.6_6956bfd74753ce61d3de402d91ab0eb900bee147/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iqbalhood/.android/build-cache/d43c4635f41bdf742f652d944cff4c0b8b455786/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/iqbalhood/Documents/UtopianProject/PalmGardenMonitoring/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_abe99ab5a6fb25b64ef2b6249f4e0b63253681eb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iqbalhood/.android/build-cache/b720935d4bbaab1ffdc54308fa94e5fbd8fd339e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
+        <dex dex="/Users/iqbalhood/Documents/UtopianProject/PalmGardenMonitoring/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_86e9800f91b4d73430e6acfb5c2d31ad8219d611/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -296,16 +305,7 @@
         optimize="true"
         revision="25.0.0"
         sha1="afa06f539a4026c10b247386312aa67404b80a16">
-        <dex dex="/Users/iqbalhood/Desktop/MonitoringCHdanHPT/app/build/intermediates/transforms/dex/debug/folders/1000/10/ormlite-android-4.48_0f9229b12885f0d09ca038fb9423ab1c3770983b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iqbalhood/.android/build-cache/82dabf4b49595b94a1ce67af17e2be0ebb493f8f/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="/Users/iqbalhood/Desktop/MonitoringCHdanHPT/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9d0903b0ef286b33f4c39664ddaf6502d62baeae/classes.dex" />
+        <dex dex="/Users/iqbalhood/Documents/UtopianProject/PalmGardenMonitoring/app/build/intermediates/transforms/dex/debug/folders/1000/10/ormlite-android-4.48_0f9229b12885f0d09ca038fb9423ab1c3770983b/classes.dex" />
     </item>
 
 </items>

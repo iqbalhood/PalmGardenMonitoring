@@ -37,7 +37,7 @@
             android:textSize="20sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Pilih Satuan Kebun"/>
+            android:text="Select Garden Unit"/>
 
     <!-- Spinner Dropdown -->
     <Spinner
@@ -73,7 +73,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Atau"/>
+            android:text="or"/>
 
 
         <View
@@ -95,7 +95,7 @@
             android:textSize="20sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-        android:text="Edit Satuan Kebun"/>
+        android:text="Edit Garden Unit"/>
 
     <!-- Spinner Dropdown -->
     <Spinner
@@ -119,7 +119,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:drawableLeft="@drawable/ic_add_black_24dp"
-        android:text="Tambah Satuan Kebun"
+        android:text="Add Garden Unit"
         android:textColor="#FFF"
         android:background="#534d4d"
         android:padding="10dp"

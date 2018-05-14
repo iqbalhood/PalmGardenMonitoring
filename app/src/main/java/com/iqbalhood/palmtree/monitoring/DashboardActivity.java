@@ -76,7 +76,7 @@ public class DashboardActivity extends AppCompatActivity  implements AdapterView
 
         System.out.println("Tambah Satuan Kebun "+count);
 
-        btn.setText("Tambah Satuan Kebun ("+(20-count)+")");
+        btn.setText("Add Garden Unit ("+(20-count)+")");
 
         if((20-count)<=1){
 
@@ -95,7 +95,7 @@ public class DashboardActivity extends AppCompatActivity  implements AdapterView
         daftarID = new String[cursor.getCount()+1];
         daftarTahun = new String[cursor.getCount()+1];
 
-        daftar[0] = "Pilih Kebun";
+        daftar[0] = "Select Garden";
         daftarID[0] = "0";
         daftarTahun[0] = "0";
 
@@ -178,7 +178,7 @@ public class DashboardActivity extends AppCompatActivity  implements AdapterView
 
             if(label.contains("0")){
 
-                Toast.makeText(view.getContext(), "Silahkan Pilih Kebun",Toast.LENGTH_SHORT).show();
+                Toast.makeText(view.getContext(), "Select Garden",Toast.LENGTH_SHORT).show();
 
 
             }else{
@@ -215,7 +215,7 @@ public class DashboardActivity extends AppCompatActivity  implements AdapterView
 
             if(label.contains("0")){
 
-                Toast.makeText(view.getContext(), "Silahkan Pilih Kebun",Toast.LENGTH_SHORT).show();
+                Toast.makeText(view.getContext(), "Please Select The Garden",Toast.LENGTH_SHORT).show();
 
 
             }else{
