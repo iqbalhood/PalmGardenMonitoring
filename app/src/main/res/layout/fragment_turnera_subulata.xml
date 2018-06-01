@@ -46,7 +46,7 @@
         android:layout_marginBottom="10dp"
         android:background="@color/colorPrimaryDark"
         android:padding="20dp"
-        android:text="Nama Satuan Kebun (Tahun Tanam)"
+        android:text="Name of Garden Unit (Tahun Tanam)"
         android:textAlignment="center"
         android:textColor="#FFF"
         android:textSize="18sp" />
@@ -124,7 +124,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
-                android:hint="Jumlah Ulat Api"
+                android:hint="Number of Turnera Subulata"
                 android:inputType="number"
                 android:maxLength="10" />
 
@@ -215,7 +215,7 @@
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
                 android:layout_margin="20dp"
-                android:text="Populasi/Pelepah  Grafik 2017"/>
+                android:text="Population/Midrib   2018 Graph"/>
 
 
             <com.github.mikephil.charting.charts.BarChart
@@ -230,7 +230,7 @@
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
                 android:layout_margin="20dp"
-                android:text="Populasi/Pelepah  Grafik 2018"/>
+                android:text="Population/Midrib  Grafik 2018"/>
 
 
             <com.github.mikephil.charting.charts.BarChart
@@ -245,7 +245,7 @@
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
                 android:layout_margin="20dp"
-                android:text="Populasi/Pelepah  Grafik 2019"/>
+                android:text="Population/Midrib  Grafik 2019"/>
 
 
             <com.github.mikephil.charting.charts.BarChart
@@ -260,7 +260,7 @@
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
                 android:layout_margin="20dp"
-                android:text="Populasi/Pelepah  Grafik 2020"/>
+                android:text="Population/Midrib  Grafik 2020"/>
 
 
             <com.github.mikephil.charting.charts.BarChart
